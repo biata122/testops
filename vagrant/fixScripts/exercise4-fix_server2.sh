@@ -1,3 +1,2 @@
 #!/bin/bash
-sudo nano /etc/hosts
-192.168.100.10 server1
+sudo sed -i "192.168.100.10 server1" /etc/hosts
